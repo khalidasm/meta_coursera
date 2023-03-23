@@ -5,7 +5,7 @@ import { TailwindClasses } from "../Constants/Constants";
 
 function Navbar() {
   return (
-    <nav className="w-full px-60 flex justify-between items-center py-5 bg-white">
+    <nav className="w-full px-5 overflow-scroll md:px-60 flex justify-between items-center py-5 bg-white">
       <Link to="/">
         <img src={Logo} alt="Little Lemon Logo" />
       </Link>
